@@ -1,0 +1,379 @@
+.banner{
+   background-color: #EEC900;
+   display: grid;
+   grid-template-columns: 15% 20% 20% 20% 20%;
+}
+.blackfriday{
+    width: 260px;
+    height: 90px;
+    position: relative;
+    top: 10px;
+}
+.textbanner{
+    text-align: center;
+    color: black;
+}
+.text50{
+    position: relative;
+    right: 60px;
+   font-size: 70px;
+   text-align: center;
+   color: white;
+}
+.textxemngay{
+   position: relative;
+   right: 90px;
+   top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+}
+.menu{
+    background-color: orangered;
+}
+.giohang{
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 5px;
+    width: 100px;
+    text-decoration: none;
+    height: 30px;
+}
+
+  
+  #slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 4000px;
+    -webkit-animation: slide 15s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  
+@-webkit-keyframes slide {
+    10% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+  }
+
+
+  .containerss {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containerss:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containerss:hover .middle {
+    opacity: 1;
+  }
+  
+ /* .text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */
+
+.sdt:hover a{
+    color: #EEC900;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+    text-decoration: none;
+    list-style: none;
+}
+.sdt a{
+  color: white;
+}
+
+.dn:hover a{
+  color: yellow;
+}
+.dn a{
+  color: white;
+}
+.tk:hover a{
+  color: yellow;
+  transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+    text-decoration: none;
+    list-style: none;
+ }
+.tk a{
+  color: white;
+}
+.GH:hover a{
+  color: greenyellow;
+}
+.GH a{
+  color:white;
+}
+.danhmuc a{
+  color: black;
+  text-decoration: none;
+}
+.row1 a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.menu-big .menu-small{
+  display: none;
+  text-decoration: none;
+  list-style: none;
+}
+.menu-big:hover .menu-small{
+  display: block;
+  position: absolute;
+
+}
+.menu-big{
+  list-style: none;
+}
+.mnsm .small{
+  display: none;
+  position: absolute;
+  top:0px;
+  left: 230px;
+  
+}
+.mnsm:hover .small{
+  display: block;
+}
+
+.containerdm{
+  border: 1px solid gainsboro;
+  width: 800px;
+  height: 415px;
+  font-size: 15px;
+  background-color: white;
+}
+.menu-small li{
+  padding: 10px;
+  background-color: white;
+}
+.submit{
+  background-color: yellow;
+  color: red;
+}
+.email{
+  width: 500px;
+  height: 35px;
+}
+.shop{
+  width: 100px;
+}
+.iconfooter{
+  
+  color: orangered;
+}
+.footer a{
+  text-decoration: none;
+}
+
+
+
+.containerimage {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: auto;
+  border: 2px solid yellow;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 130px;
+  top: auto;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 200px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containerimage:hover .overlay {
+  height: 200px;
+}
+
+.text1 {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  
+}
+
+.money{
+  color: red;
+  font-size: 20px;
+}
+.Fsale{
+  color: red;
+}
+.containers{
+  background-color: rgb(245, 238, 238);
+}
+.xem2:hover a{
+  background: orangered;
+  color: antiquewhite;
+}
+.xem2 a{
+  text-decoration: none;
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  padding: 10px;
+}
+.dropdown-submenu {
+  position: relative;
+ }
+ 
+ .dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+ }
+.xemtin{
+  color: orangered;
+}
+.xemtin a{
+  text-decoration: none;
+  margin: 10px;
+}
+.xemtinss{
+  background: white;
+}
+.xemtinsss{
+  background-color: white;
+}
+.text5trUSD a{
+  text-decoration: none;
+  color: black;
+}
+.a1:hover .gopro{
+  color: orangered;
+}
+.text5trUSD .textdoctiep{
+  color: orangered;
+}
+
+.auto{
+  display:block;
+  padding:10px;
+  margin-left:10px;
+  width:670px;
+  height:450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: white;
+  /* overflow:auto; */
+}
+
+
+.auto::-webkit-scrollbar{
+  width: 5px;
+}
+.auto::-webkit-scrollbar-track{
+  background: white;
+}
+.auto::-webkit-scrollbar-thumb{
+  background: orangered;
+}
+.auto.subject,.subject2{
+  background-color: white;
+}
+
+.auto a{
+  text-decoration: none;
+}
+.textTT{
+  font-size: 20px;
+  color: black;
+}
+.a2:hover .textTT{
+  color: orangered;
+}
+.a3 p{
+  color: orangered;
+}
+.a3:hover p{
+  color: #EEC900;
+  transition: ease-in 0.60s;
+  -moz-transition: ease-in 0.60s;
+  -webkit-transition: ease-in 0.60s;
+  text-decoration: none;
+  list-style: none;
+}
+.a4:hover i{
+  transform: scale(1.3);
+}
